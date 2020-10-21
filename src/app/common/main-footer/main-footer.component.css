@@ -1,0 +1,98 @@
+#mensaje-enlaces
+{
+    background-color: #1A191E;
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+
+#unirse
+{
+    background-color: #CE1434;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#unete
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h2
+{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#boton
+{
+    padding-top: 5%;
+    padding-left: 30%;
+}
+
+button
+{
+    border: none;
+    color: 20px;
+    font-weight: 700;
+    height: 55px;
+    width: 165px;
+}
+
+#enlaces
+{
+    padding-top: 80px;
+}
+
+h4
+{
+    color: white;
+    font-weight: 600;
+}
+
+span
+{
+    color: #DA072C;
+}
+
+ul
+{
+    display: block;
+}
+
+li a
+{
+    color: white;
+    padding-top: 20px;
+}
+
+li a:hover
+{
+    color: #DA072C;
+}
+
+img
+{
+    padding-bottom: 8px;
+}
+
+#copy
+{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h6
+{
+    color: white;
+}
+
+#copyright
+{
+    border-inline: 2px solid #DA072C;
+}
