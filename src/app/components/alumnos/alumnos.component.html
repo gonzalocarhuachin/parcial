@@ -6,8 +6,23 @@
                 <h1>Nuestros Alumnos</h1>
             </div>
         </div>
-        <div class="row">
-
+        <div class="row" id="tabla">
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let itemAlumno of listaAlumnos">
+                        <td>{{itemAlumno.nombres}}</td>
+                        <td>{{itemAlumno.apellidos}}</td>
+                        <td>{{itemAlumno.estado}}</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

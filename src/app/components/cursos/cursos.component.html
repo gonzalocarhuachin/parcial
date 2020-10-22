@@ -6,8 +6,25 @@
                 <h1>Los Más Destacados</h1>
             </div>
         </div>
-        <div class="row">
-
+        <div class="row" id="tabla">
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Año</th>
+                        <th>Horas por Día</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let itemCurso of listaCursos">
+                        <td>{{itemCurso.idcurso}}</td>
+                        <td>{{itemCurso.nombre}}</td>
+                        <td>{{itemCurso.anio}}</td>
+                        <td>{{itemCurso.horasXdia}} horas</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>
